@@ -94,7 +94,6 @@ public class viewQuanLy extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(0, 0, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\aduc7\\Documents\\NetBeansProjects\\SD1019\\icons\\Book.png")); // NOI18N
         jLabel1.setText("Quản lý sách thư viện");
 
         jLabel7.setText("Năm xuất bản");
@@ -107,7 +106,6 @@ public class viewQuanLy extends javax.swing.JFrame {
 
         jLabel3.setText("Tên sách");
 
-        jButton1.setIcon(new javax.swing.ImageIcon("C:\\Users\\aduc7\\Documents\\NetBeansProjects\\SD1019\\icons\\Edit.png")); // NOI18N
         jButton1.setText("Thêm ");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -115,17 +113,14 @@ public class viewQuanLy extends javax.swing.JFrame {
             }
         });
 
-        jButton2.setIcon(new javax.swing.ImageIcon("C:\\Users\\aduc7\\Documents\\NetBeansProjects\\SD1019\\icons\\Delete.png")); // NOI18N
         jButton2.setText("Xóa");
 
         jLabel4.setText("Thể loại");
 
-        jButton3.setIcon(new javax.swing.ImageIcon("C:\\Users\\aduc7\\Documents\\NetBeansProjects\\SD1019\\icons\\Upload.png")); // NOI18N
         jButton3.setText("Sửa");
 
         jLabel5.setText("Tác giả");
 
-        jButton4.setIcon(new javax.swing.ImageIcon("C:\\Users\\aduc7\\Documents\\NetBeansProjects\\SD1019\\icons\\Search.png")); // NOI18N
         jButton4.setText("Tìm kiếm");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -247,11 +242,15 @@ public class viewQuanLy extends javax.swing.JFrame {
         jLabel11.setText("Chức Vụ");
 
         cbochucnv.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Thủ Thư", "Kế Toán", "Bảo Vệ", "Lao Công" }));
+        cbochucnv.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cbochucnvActionPerformed(evt);
+            }
+        });
 
         jLabel12.setBackground(new java.awt.Color(0, 0, 204));
         jLabel12.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel12.setForeground(new java.awt.Color(0, 0, 153));
-        jLabel12.setIcon(new javax.swing.ImageIcon("C:\\Users\\aduc7\\Documents\\NetBeansProjects\\SD1019\\icons\\Clien list.png")); // NOI18N
         jLabel12.setText("QUẢN LÝ NHÂN VIÊN");
 
         tblnhanvien.setModel(new javax.swing.table.DefaultTableModel(
@@ -271,7 +270,6 @@ public class viewQuanLy extends javax.swing.JFrame {
 
         jLabel14.setText("Mã NV");
 
-        btnthemnhanvien.setIcon(new javax.swing.ImageIcon("C:\\Users\\aduc7\\Documents\\NetBeansProjects\\SD1019\\icons\\Edit.png")); // NOI18N
         btnthemnhanvien.setText("Thêm ");
         btnthemnhanvien.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -281,15 +279,12 @@ public class viewQuanLy extends javax.swing.JFrame {
 
         jLabel15.setText("Tên NV");
 
-        btnxoanhanvien.setIcon(new javax.swing.ImageIcon("C:\\Users\\aduc7\\Documents\\NetBeansProjects\\SD1019\\icons\\Delete.png")); // NOI18N
         btnxoanhanvien.setText("Xóa");
 
         jLabel16.setText(" Ngày Sinh");
 
-        btnsuanhanvien.setIcon(new javax.swing.ImageIcon("C:\\Users\\aduc7\\Documents\\NetBeansProjects\\SD1019\\icons\\Upload.png")); // NOI18N
         btnsuanhanvien.setText("Sửa");
 
-        btntimnhanvien.setIcon(new javax.swing.ImageIcon("C:\\Users\\aduc7\\Documents\\NetBeansProjects\\SD1019\\icons\\Search.png")); // NOI18N
         btntimnhanvien.setText("Tìm kiếm");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
@@ -403,24 +398,24 @@ public class viewQuanLy extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Quản lý mượn trả", jPanel3);
 
-        jLabel17.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel17.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         jLabel17.setForeground(new java.awt.Color(0, 0, 204));
-        jLabel17.setIcon(new javax.swing.ImageIcon("C:\\Users\\aduc7\\Documents\\NetBeansProjects\\SD1019\\icons\\Company.png")); // NOI18N
-        jLabel17.setText("Quản Lý Thư VIện");
+        jLabel17.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel17.setText("Quản Lý Thư Viện");
         jLabel17.setMaximumSize(new java.awt.Dimension(687, 215));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(213, 213, 213)
-                .addComponent(jLabel17, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(39, Short.MAX_VALUE)
                 .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 561, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(39, 39, 39))
+            .addGroup(layout.createSequentialGroup()
+                .addGap(212, 212, 212)
+                .addComponent(jLabel17, javax.swing.GroupLayout.PREFERRED_SIZE, 208, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -442,6 +437,10 @@ public class viewQuanLy extends javax.swing.JFrame {
     private void btnthemnhanvienActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnthemnhanvienActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_btnthemnhanvienActionPerformed
+
+    private void cbochucnvActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cbochucnvActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_cbochucnvActionPerformed
 
     /**
      * @param args the command line arguments
