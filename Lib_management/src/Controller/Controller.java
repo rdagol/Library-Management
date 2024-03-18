@@ -4,13 +4,11 @@
  */
 package Controller;
 
-import Model.Model;
-import java.util.ArrayList;
 
 /**
  *
  * @author Tùng
  */
 public class Controller {
-    public ArrayList<Model> list = new ArrayList<>();
+    
 }
