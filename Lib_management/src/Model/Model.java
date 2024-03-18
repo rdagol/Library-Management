@@ -9,5 +9,6 @@ package Model;
  * @author Tùng
  */
 public class Model {
+    private String maSach;
     
 }
