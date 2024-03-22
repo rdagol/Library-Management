@@ -172,7 +172,6 @@ public class viewQuanLy extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(0, 0, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\aduc7\\Desktop\\gith\\Library-Management\\icons\\Book.png")); // NOI18N
         jLabel1.setText("Quản lý sách thư viện");
 
         jLabel7.setText("Năm xuất bản");
@@ -185,7 +184,6 @@ public class viewQuanLy extends javax.swing.JFrame {
 
         jLabel3.setText("Tên sách");
 
-        jButton1.setIcon(new javax.swing.ImageIcon("C:\\Users\\aduc7\\Desktop\\gith\\Library-Management\\icons\\Edit.png")); // NOI18N
         jButton1.setText("Thêm ");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -193,7 +191,6 @@ public class viewQuanLy extends javax.swing.JFrame {
             }
         });
 
-        jButton2.setIcon(new javax.swing.ImageIcon("C:\\Users\\aduc7\\Desktop\\gith\\Library-Management\\icons\\Delete.png")); // NOI18N
         jButton2.setText("Xóa");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -203,12 +200,10 @@ public class viewQuanLy extends javax.swing.JFrame {
 
         jLabel4.setText("Thể loại");
 
-        jButton3.setIcon(new javax.swing.ImageIcon("C:\\Users\\aduc7\\Desktop\\gith\\Library-Management\\icons\\Upload.png")); // NOI18N
         jButton3.setText("Sửa");
 
         jLabel5.setText("Tác giả");
 
-        jButton4.setIcon(new javax.swing.ImageIcon("C:\\Users\\aduc7\\Desktop\\gith\\Library-Management\\icons\\Search.png")); // NOI18N
         jButton4.setText("Tìm kiếm");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -340,7 +335,6 @@ public class viewQuanLy extends javax.swing.JFrame {
         jLabel12.setBackground(new java.awt.Color(0, 0, 204));
         jLabel12.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel12.setForeground(new java.awt.Color(0, 0, 153));
-        jLabel12.setIcon(new javax.swing.ImageIcon("C:\\Users\\aduc7\\Desktop\\gith\\Library-Management\\icons\\Clien list.png")); // NOI18N
         jLabel12.setText("QUẢN LÝ NHÂN VIÊN");
 
         tblnhanvien.setModel(new javax.swing.table.DefaultTableModel(
@@ -360,7 +354,6 @@ public class viewQuanLy extends javax.swing.JFrame {
 
         jLabel14.setText("Mã NV");
 
-        btnthemnhanvien.setIcon(new javax.swing.ImageIcon("C:\\Users\\aduc7\\Desktop\\gith\\Library-Management\\icons\\Edit.png")); // NOI18N
         btnthemnhanvien.setText("Thêm ");
         btnthemnhanvien.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -370,15 +363,12 @@ public class viewQuanLy extends javax.swing.JFrame {
 
         jLabel15.setText("Tên NV");
 
-        btnxoanhanvien.setIcon(new javax.swing.ImageIcon("C:\\Users\\aduc7\\Desktop\\gith\\Library-Management\\icons\\Delete.png")); // NOI18N
         btnxoanhanvien.setText("Xóa");
 
         jLabel16.setText(" Ngày Sinh");
 
-        btnsuanhanvien.setIcon(new javax.swing.ImageIcon("C:\\Users\\aduc7\\Desktop\\gith\\Library-Management\\icons\\Upload.png")); // NOI18N
         btnsuanhanvien.setText("Sửa");
 
-        btntimnhanvien.setIcon(new javax.swing.ImageIcon("C:\\Users\\aduc7\\Desktop\\gith\\Library-Management\\icons\\Search.png")); // NOI18N
         btntimnhanvien.setText("Tìm kiếm");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
@@ -611,7 +601,6 @@ public class viewQuanLy extends javax.swing.JFrame {
 
         jLabel48.setText("Số Lượng");
 
-        txthienthithonhtin.setIcon(new javax.swing.ImageIcon("C:\\Users\\aduc7\\Desktop\\gith\\Library-Management\\icons\\Zoom.png")); // NOI18N
         txthienthithonhtin.setText("Hiển Thị Thông Tin");
         txthienthithonhtin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -983,7 +972,7 @@ public class viewQuanLy extends javax.swing.JFrame {
 
         jLabel23.setText("Thống Kê Theo");
 
-        cbothongke.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Sách mượn nhiều nhất", "Sách muợn ít nhất", "chưa trả", "đã trả", "phiếu đã hết hạn" }));
+        cbothongke.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Sách mượn nhiều nhất", "Sách muợn ít nhất", "Chưa trả", "Đã trả", "Phiếu đã hết hạn" }));
 
         jLabel24.setText("Top");
 
@@ -1025,14 +1014,14 @@ public class viewQuanLy extends javax.swing.JFrame {
                             .addComponent(jLabel24)
                             .addComponent(jLabel25))
                         .addGap(30, 30, 30)
-                        .addGroup(jLayeredPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(cbothongke, javax.swing.GroupLayout.PREFERRED_SIZE, 249, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txttopthongke, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(jLayeredPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(cbothongke, 0, 249, Short.MAX_VALUE)
                             .addGroup(jLayeredPane1Layout.createSequentialGroup()
                                 .addComponent(rdotang)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addGap(18, 18, 18)
                                 .addComponent(rdogiam, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(btnhienthithongke)))
+                            .addComponent(btnhienthithongke)
+                            .addComponent(txttopthongke)))
                     .addGroup(jLayeredPane1Layout.createSequentialGroup()
                         .addGap(45, 45, 45)
                         .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
@@ -1067,7 +1056,6 @@ public class viewQuanLy extends javax.swing.JFrame {
         jLabel17.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         jLabel17.setForeground(new java.awt.Color(0, 0, 204));
         jLabel17.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel17.setIcon(new javax.swing.ImageIcon("C:\\Users\\aduc7\\Desktop\\gith\\Library-Management\\icons\\Company.png")); // NOI18N
         jLabel17.setText("Quản Lý Thư Viện");
         jLabel17.setMaximumSize(new java.awt.Dimension(687, 215));
 
@@ -1178,19 +1166,10 @@ public class viewQuanLy extends javax.swing.JFrame {
     private javax.swing.JComboBox<String> cbothongke;
     private javax.swing.Box.Filler filler1;
     private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton11;
-    private javax.swing.JButton jButton12;
-    private javax.swing.JButton jButton13;
-    private javax.swing.JButton jButton14;
-    private javax.swing.JButton jButton15;
-    private javax.swing.JButton jButton16;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
     private javax.swing.JDesktopPane jDesktopPane2;
-    private javax.swing.JDesktopPane jDesktopPane3;
-    private javax.swing.JDesktopPane jDesktopPane4;
-    private javax.swing.JDesktopPane jDesktopPane5;
     private javax.swing.JDesktopPane jDesktopPane6;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
@@ -1231,29 +1210,8 @@ public class viewQuanLy extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel51;
     private javax.swing.JLabel jLabel52;
     private javax.swing.JLabel jLabel53;
-    private javax.swing.JLabel jLabel54;
-    private javax.swing.JLabel jLabel55;
-    private javax.swing.JLabel jLabel56;
-    private javax.swing.JLabel jLabel57;
-    private javax.swing.JLabel jLabel58;
-    private javax.swing.JLabel jLabel59;
     private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel60;
-    private javax.swing.JLabel jLabel61;
-    private javax.swing.JLabel jLabel62;
-    private javax.swing.JLabel jLabel63;
-    private javax.swing.JLabel jLabel64;
-    private javax.swing.JLabel jLabel65;
-    private javax.swing.JLabel jLabel66;
-    private javax.swing.JLabel jLabel67;
-    private javax.swing.JLabel jLabel68;
-    private javax.swing.JLabel jLabel69;
     private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel70;
-    private javax.swing.JLabel jLabel71;
-    private javax.swing.JLabel jLabel72;
-    private javax.swing.JLabel jLabel73;
-    private javax.swing.JLabel jLabel74;
     private javax.swing.JLabel jLabel75;
     private javax.swing.JLabel jLabel76;
     private javax.swing.JLabel jLabel77;
@@ -1282,9 +1240,6 @@ public class viewQuanLy extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel4;
-    private javax.swing.JPanel jPanel5;
-    private javax.swing.JPanel jPanel6;
-    private javax.swing.JPanel jPanel7;
     private javax.swing.JPanel jPanel8;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
@@ -1295,21 +1250,6 @@ public class viewQuanLy extends javax.swing.JFrame {
     private javax.swing.JTabbedPane jTabbedPane2;
     private javax.swing.JTextField jTextField10;
     private javax.swing.JTextField jTextField11;
-    private javax.swing.JTextField jTextField13;
-    private javax.swing.JTextField jTextField14;
-    private javax.swing.JTextField jTextField15;
-    private javax.swing.JTextField jTextField16;
-    private javax.swing.JTextField jTextField17;
-    private javax.swing.JTextField jTextField18;
-    private javax.swing.JTextField jTextField19;
-    private javax.swing.JTextField jTextField20;
-    private javax.swing.JTextField jTextField21;
-    private javax.swing.JTextField jTextField22;
-    private javax.swing.JTextField jTextField23;
-    private javax.swing.JTextField jTextField24;
-    private javax.swing.JTextField jTextField25;
-    private javax.swing.JTextField jTextField26;
-    private javax.swing.JTextField jTextField27;
     private javax.swing.JTextField jTextField9;
     private javax.swing.JRadioButton rdogiam;
     private javax.swing.JRadioButton rdotang;
